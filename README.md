@@ -11,7 +11,7 @@ Initially, we will work step by step.
 8) Bugfix.
 9) Finalization.
 
-In the source branch there will be a build, in it there is a readme file on how to run everything. What will not be clear - contact me.
+In the !!!source!!! branch there will be a gulp-builder, in it there is a readme file on how to run everything. !!!You need to merge the source branch into the main at the start. What will not be clear - contact me.
 
 Please no ChatGpt and so on. We need to know your real level. And fill in your knowledge gaps. It's crucial.
 
