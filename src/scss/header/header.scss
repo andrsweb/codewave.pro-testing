@@ -1,12 +1,12 @@
 .header {
   padding-block: 43px;
+
   &__wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  &__logo {}
-  &__inner {}
+
   &__list {
     display: flex;
     align-items: center;

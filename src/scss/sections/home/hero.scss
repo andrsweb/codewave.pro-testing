@@ -1,0 +1,38 @@
+.hero {
+  padding-block: 40px;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+
+  &__img {
+    border-radius: 12px;
+  }
+
+  &__title {
+    width: 526px;
+    color: $white;
+    font-family: $ff;
+    font-size: 70px;
+    font-weight: $fw-regular;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+  }
+
+  &__text {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: $white;
+    font-family: $ff;
+    font-size: 15px;
+    font-weight: $fw-regular;
+    line-height: 24px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 17px;
+  }
+}
