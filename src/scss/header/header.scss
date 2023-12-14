@@ -1,0 +1,29 @@
+.header {
+  padding-block: 43px;
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__logo {}
+  &__inner {}
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    &_item a {
+      color: $white;
+      font-family: $ff;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 27px;
+      text-decoration: none;
+
+      &:hover {
+        color: #118DA8;
+      }
+    }
+  }
+
+}
