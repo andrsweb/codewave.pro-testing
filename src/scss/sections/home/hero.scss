@@ -8,10 +8,28 @@
   }
 
   &__img {
-    border-radius: 12px;
+    position: relative;
+    z-index: -1;
+
+    img {
+      border-radius: 12px;
+    }
+
+    &:after {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 68px;
+      height: 74px;
+      top: -25px;
+      left: -25px;
+      z-index: 99;
+      background-image: url("../../img/hero/bands.png");
+    }
   }
 
   &__title {
+    position: relative;
     width: 526px;
     color: $white;
     font-family: $ff;
@@ -19,6 +37,16 @@
     font-weight: $fw-regular;
     line-height: 88px;
     letter-spacing: 3.2px;
+    &:before {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 160px;
+      height: 104px;
+      bottom: -10px;
+      left: 0;
+      background-image: url("../../img/hero/band.png");
+    }
   }
 
   &__text {
