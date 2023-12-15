@@ -48,20 +48,13 @@
       letter-spacing: 2.56px;
     }
     &_text {
+      margin-bottom: 18px;
       color: rgba(255, 255, 255, 0.70);
-      font-family: DM Sans;
+      font-family: '$ff';
       font-size: 22px;
       font-weight: 400;
       line-height: 1.5;
     }
-    &_buttom {
-      color: $white;
-      font-family: $ff;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 1.5;
-      border-radius: 6px;
-      background: #118DA8;
-    }
+
   }
 }
