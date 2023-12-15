@@ -1,0 +1,38 @@
+.feedbacks {
+  padding-bottom: 100px;
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  &__item {
+    padding: 50px;
+    width: 409px;
+    background-color: $black;
+    border-radius: 32px;
+
+    &_grade {
+      margin-bottom: 21px;
+    }
+
+    &_description {
+      margin-bottom: 19px;
+      color: #FFF;
+      font-family: DM Sans;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: $fw-regular;
+      line-height: 1.2;
+    }
+
+    &_name {
+      color: rgba(255, 255, 255, 0.70);
+      font-family: DM Sans;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: $fw-regular;
+      line-height: 1.2;
+    }
+  }
+}
