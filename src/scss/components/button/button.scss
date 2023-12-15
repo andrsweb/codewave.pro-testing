@@ -9,4 +9,9 @@
   background-color: #118DA8;
   cursor: pointer;
   border: none;
+
+  &:hover {
+    transition: background-color ease-out $tr;
+    background-color: #29b3d3;
+  }
 }
