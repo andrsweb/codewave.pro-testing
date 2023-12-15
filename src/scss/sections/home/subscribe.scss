@@ -1,0 +1,64 @@
+.subscribe {
+  padding-bottom: 100px;
+
+  &__wrapper {
+    position: relative;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 32px;
+    background-color: $black;
+
+    &:before {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 147px;
+      height: 91px;
+      bottom: -30px;
+      left: -30px;
+      z-index: 1;
+      background-image: url("../../img/subscribe/sticks.png");
+    }
+  }
+
+  &__info {
+    &_letter {
+      color: #118DA8;
+      font-family: $ff;
+      font-size: 18px;
+      font-weight: $fw-regular;
+      line-height: 1.5;
+    }
+
+    &_title {
+      color: $white;
+      width: 431px;
+      font-family: $ff;
+      font-size: 72px;
+      font-weight: $fw-regular;
+      line-height: 1.1;
+      letter-spacing: 2.88px;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
+    &_input {
+      padding: 26px 19px;
+      width: 522px;
+      color: rgba(255, 255, 255, 0.70);
+      font-family: $ff;
+      font-size: 24px;
+      font-weight: $fw-regular;
+      line-height: 1.2;
+      border-radius: 6px;
+      background: #191919;
+      border: none;
+    }
+  }
+}
