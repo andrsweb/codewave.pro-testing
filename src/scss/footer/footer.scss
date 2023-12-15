@@ -1,0 +1,60 @@
+.footer {
+  padding-top: 100px;
+  padding-bottom: 116px;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__network {
+    margin-right: 10px;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  &__socials {
+    margin-right: 239px;
+  }
+
+  &__logo {
+    margin-bottom: 23px;
+  }
+
+  &__item {
+    margin-right: 127px;
+    &_link {
+      margin-bottom: 12px;
+      a {
+        margin-bottom: 12px;
+        color: $white;
+        font-family: $ff;
+        font-size: 17px;
+        font-weight: $fw-regular;
+        line-height: 1.5;
+        text-decoration: none;
+
+        &:hover {
+          color: #118DA8;
+        }
+      }
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+
+    &_social {
+      margin-right: 17px;
+
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+
+    &:last-of-type {
+      margin: 0;
+    }
+
+  }
+}
