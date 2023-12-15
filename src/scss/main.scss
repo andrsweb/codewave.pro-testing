@@ -5,6 +5,9 @@
 @import 'common/grid';
 @import 'common/base';
 
+// Components
+@import 'components/button/button';
+
 // Header styles.
 @import 'header/header';
 
@@ -13,3 +16,5 @@
 
 // Home page sections styles.
 @import 'sections/home/hero';
+@import 'sections/home/episodes';
+
