@@ -12,7 +12,7 @@
     color: $white;
     font-family: $ff;
     font-size: 64px;
-    font-weight: 400;
+    font-weight: $fw-regular;
     line-height: 79.2px;
     letter-spacing: 2.88px;
   }
@@ -42,7 +42,7 @@
       display: inline-block;
       color: $white;
       font-family: $ff;
-      font-size: 18px;
+      font-size: $fs-lg;
       font-weight: $fw-regular;
       line-height: 27px;
       border-radius: 6px;
@@ -52,7 +52,7 @@
     &_episode {
       margin-bottom: 18px;
       display: block;
-      color: #118DA8;
+      color: $blue;
       font-family: $ff;
       font-size: 17px;
       font-weight: $fw-regular;
@@ -75,7 +75,7 @@
       color: rgba(255, 255, 255, 0.70);
       font-family: $ff;
       font-size: 22px;
-      font-weight: 400;
+      font-weight: $fw-regular;
       line-height: 1.5;
     }
 

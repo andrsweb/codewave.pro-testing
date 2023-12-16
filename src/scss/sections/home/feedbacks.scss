@@ -1,5 +1,5 @@
 .feedbacks {
-  padding-bottom: 100px;
+  padding-block: 100px;
   &__wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +19,7 @@
     &_description {
       margin-bottom: 19px;
       color: #FFF;
-      font-family: DM Sans;
+      font-family: $ff;
       font-size: 36px;
       font-style: normal;
       font-weight: $fw-regular;
@@ -28,7 +28,7 @@
 
     &_name {
       color: rgba(255, 255, 255, 0.70);
-      font-family: DM Sans;
+      font-family: $ff;
       font-size: 24px;
       font-style: normal;
       font-weight: $fw-regular;

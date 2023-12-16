@@ -16,12 +16,12 @@
       color: $white;
       font-family: $ff;
       font-size: 17px;
-      font-weight: 400;
+      font-weight: $fw-regular;
       line-height: 27px;
       text-decoration: none;
 
       &:hover {
-        color: #118DA8;
+        color: $blue;
       }
     }
   }

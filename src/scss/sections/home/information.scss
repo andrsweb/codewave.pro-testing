@@ -18,7 +18,7 @@
       width: 112px;
       height: 112px;
       transform: rotate(270deg);
-      background: #118DA8;
+      background-color: $blue;
       border-radius: 50%;
       border: none;
       cursor: pointer;
@@ -30,10 +30,10 @@
     }
 
     &_host {
-      color: #118DA8;
+      color: $blue;
       font-family: $ff;
       display: block;
-      font-size: 18px;
+      font-size: $fs-lg;
       font-weight: $fw-regular;
       line-height: 1.5;
     }
