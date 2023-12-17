@@ -12,6 +12,14 @@
     align-items: center;
     gap: 40px;
 
+    @media all and (min-width: 320px) {
+      display: none;
+    }
+
+    @media all and (min-width: 790px) {
+      display: flex;
+    }
+
     &_item a {
       color: $white;
       font-family: $ff;
@@ -24,6 +32,25 @@
         color: $blue;
       }
     }
+
+    &.open__menu {
+      padding-top: 100px;
+      display: flex;
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      flex-direction: column;
+      background-color: $black;
+      z-index: 99;
+      overflow: hidden;
+
+      @media all and (min-width: 789px) {
+        display: none;
+      }
+    }
+
   }
 
 }

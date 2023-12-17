@@ -1,11 +1,29 @@
 .information {
-  padding-block: 100px;
+  @media all and (min-width: 320px) {
+    padding-block: 60px;
+  }
+
+  @media all and (min-width: 790px) {
+    padding-block: 70px;
+  }
+
+  @media all and (min-width: 1200px) {
+    padding-block: 100px;
+  }
 
   &__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 94px;
+
+    @media all and (min-width: 320px) {
+      flex-direction: column;
+    }
+
+    @media all and (min-width: 790px) {
+      flex-direction: row;
+    }
   }
 
   &__about {
@@ -51,7 +69,7 @@
     &_description {
       margin-bottom: 33px;
       color: rgba(255, 255, 255, 0.70);
-      width: 556px;
+      max-width: 556px;
       font-family: $ff;
       font-size: 22px;
       font-weight: $fw-regular;

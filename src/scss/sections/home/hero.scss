@@ -1,10 +1,30 @@
 .hero {
-  padding-block: 40px;
+
+  @media all and (min-width: 320px) {
+    padding-block: 20px;
+  }
+
+  @media all and (min-width: 790px) {
+    padding-block: 30px;
+  }
+
+  @media all and (min-width: 1200px) {
+    padding-block: 40px;
+  }
 
   &__wrapper {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 60px;
+
+    @media all and (min-width: 320px) {
+      flex-direction: column;
+    }
+
+    @media all and (min-width: 790px) {
+      flex-direction: row;
+    }
   }
 
   &__img {
@@ -30,7 +50,7 @@
 
   &__title {
     position: relative;
-    width: 526px;
+    max-width: 526px;
     color: $white;
     font-family: $ff;
     font-size: 70px;
