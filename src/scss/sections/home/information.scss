@@ -64,6 +64,18 @@
       font-weight: $fw-regular;
       line-height: 1.2;
       letter-spacing: 2.88px;
+
+      @media all and (min-width: 320px) {
+        font-size: 36px;
+      }
+
+      @media all and (min-width: 790px) {
+        font-size: 48px;
+      }
+
+      @media all and (min-width: 1200px) {
+        font-size: 65px;
+      }
     }
 
     &_description {

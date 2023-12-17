@@ -36,6 +36,21 @@
     font-weight: $fw-regular;
     line-height: 79.2px;
     letter-spacing: 2.88px;
+
+    @media all and (min-width: 320px) {
+      font-size: 36px;
+      line-height: 1.2;
+    }
+
+    @media all and (min-width: 790px) {
+      font-size: 48px;
+      line-height: 1.2;
+    }
+
+    @media all and (min-width: 1200px) {
+      font-size: 64px;
+      line-height: 1.2;
+    }
   }
 
   &__items {
@@ -94,7 +109,6 @@
       max-width: 689px;
       color: $white;
       font-family: $ff;
-
       font-weight: $fw-regular;
       line-height: 1.1;
       letter-spacing: 2.56px;
@@ -119,6 +133,18 @@
       font-size: 22px;
       font-weight: $fw-regular;
       line-height: 1.5;
+
+      @media all and (min-width: 320px) {
+        font-size: 16px;
+      }
+
+      @media all and (min-width: 790px) {
+        font-size: 18px;
+      }
+
+      @media all and (min-width: 1200px) {
+        font-size: 22px;
+      }
     }
 
     &_image {
