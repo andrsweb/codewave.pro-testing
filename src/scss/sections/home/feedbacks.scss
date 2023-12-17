@@ -1,16 +1,36 @@
 .feedbacks {
   padding-block: 100px;
-  &__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+
+  @media all and (min-width: 320px) {
+    padding-block: 50px;
   }
 
+  @media all and (min-width: 790px) {
+    padding-block: 70px;
+  }
+
+  @media all and (min-width: 1200px) {
+    padding-block: 100px;
+  }
+
+
   &__item {
-    padding: 50px;
-    width: 409px;
+    max-width: 423px;
+    height: 364px;
     background-color: $black;
     border-radius: 32px;
+
+    @media all and (min-width: 320px) {
+      padding: 25px;
+    }
+
+    @media all and (min-width: 790px) {
+      padding: 30px;
+    }
+
+    @media all and (min-width: 1200px) {
+      padding: 50px;
+    }
 
     &_grade {
       margin-bottom: 21px;

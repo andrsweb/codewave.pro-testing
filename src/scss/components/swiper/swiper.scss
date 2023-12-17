@@ -1,0 +1,32 @@
+.swiper-navigator {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 140px;
+}
+
+.swiper-container {
+  width: 100%;
+  margin: 20px;
+}
+
+.swiper-slide{
+  margin-right: 24px;
+}
+
+.swiper-slide-button-prev {
+  top: 42%;
+  left: 13%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.swiper-slide-button-next {
+  top: 42%;
+  right: 13%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
+
