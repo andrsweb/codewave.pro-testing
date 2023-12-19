@@ -1,9 +1,6 @@
 .footer {
-
-  @media all and (min-width: 320px) {
-    padding-top: 40px;
-    padding-bottom: 62px;
-  }
+  padding-top: 40px;
+  padding-bottom: 62px;
 
   @media all and (min-width: 790px) {
     padding-top: 70px;
@@ -18,6 +15,11 @@
   &__wrapper {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
+
+    @media all and (min-width: 480px) {
+      gap: 0px;
+    }
   }
 
   &__network {
@@ -29,22 +31,22 @@
   }
 
   &__socials {
+    margin-bottom: 30px;
 
-    @media all and (min-width: 320px) {
-      margin-right: 50px;
+    @media all and (min-width: 399px) {
+      margin-right: 69px;
     }
 
     @media all and (min-width: 790px) {
+      margin-bottom: 0px;
       margin-right: 239px;
-    }
-
-    @media all and (min-width: 1200px) {
-
     }
   }
 
   &__logo {
-    margin-bottom: 23px;
+    @media all and (min-width: 790px) {
+      margin-bottom: 23px;
+    }
   }
 
   &__item {

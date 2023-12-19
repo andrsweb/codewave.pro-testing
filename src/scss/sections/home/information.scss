@@ -1,7 +1,5 @@
 .information {
-  @media all and (min-width: 320px) {
-    padding-block: 60px;
-  }
+  padding-block: 60px;
 
   @media all and (min-width: 790px) {
     padding-block: 70px;
@@ -14,32 +12,48 @@
   &__wrapper {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-between;
-    gap: 94px;
-
-    @media all and (min-width: 320px) {
-      flex-direction: column;
-    }
+    gap: 44px;
 
     @media all and (min-width: 790px) {
       flex-direction: row;
+      gap: 64px;
+    }
+
+    @media all and (min-width: 1200px) {
+      gap: 94px;
     }
   }
 
   &__about {
     &_button {
-      padding-top: 24px;
-      padding-right: 24px;
-      padding-left: 24px;
-      padding-bottom: 40px;
-      margin-bottom: 20px;
-      width: 112px;
-      height: 112px;
+      padding-top: 12px;
+      padding-right: 12px;
+      padding-left: 12px;
+      padding-bottom: 20px;
+      margin-bottom: 10px;
+      width: 80px;
+      height: 80px;
       transform: rotate(270deg);
       background-color: $blue;
       border-radius: 50%;
       border: none;
       cursor: pointer;
+
+      @media all and (min-width: 790px) {
+
+      }
+
+      @media all and (min-width: 1200px) {
+        padding-top: 24px;
+        padding-right: 24px;
+        padding-left: 24px;
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+        width: 112px;
+        height: 112px;
+      }
 
       &:hover {
         transition: background ease-out $tr;
@@ -60,14 +74,10 @@
       margin-bottom: 28px;
       color: $white;
       font-family: $ff;
-      font-size: 65px;
+      font-size: 36px;
       font-weight: $fw-regular;
       line-height: 1.2;
       letter-spacing: 2.88px;
-
-      @media all and (min-width: 320px) {
-        font-size: 36px;
-      }
 
       @media all and (min-width: 790px) {
         font-size: 48px;

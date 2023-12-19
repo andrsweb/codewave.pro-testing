@@ -2,11 +2,12 @@ const initCatalogSlider = () => {
     new Swiper('.swiper', {
         direction: 'horizontal',
         loop: true,
+        spaceBetween: 10,
         breakpoints: {
             1200: {
                 slidesPerView: 3,
             },
-            775: {
+            675: {
                 slidesPerView: 2,
             },
             320: {

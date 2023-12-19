@@ -1,7 +1,5 @@
 .subscribe {
-  @media all and (min-width: 320px) {
-    padding-block: 60px;
-  }
+  padding-block: 60px;
 
   @media all and (min-width: 790px) {
     padding-block: 70px;
@@ -12,16 +10,13 @@
   }
 
   &__wrapper {
+    padding: 35px;
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     border-radius: 32px;
     background-color: $black;
-
-    @media all and (min-width: 320px) {
-      padding: 35px;
-      flex-direction: column;
-    }
 
     @media all and (min-width: 790px) {
       padding: 40px;
@@ -38,10 +33,24 @@
       content: "";
       width: 147px;
       height: 91px;
-      bottom: -30px;
-      left: -30px;
+      bottom: -37px;
+      left: -10px;
       z-index: 1;
       background-image: url("../../img/subscribe/sticks.png");
+
+      @media all and (min-width: 790px) {
+        width: 147px;
+        height: 91px;
+        bottom: -30px;
+        left: -30px;
+      }
+
+      @media all and (min-width: 1200px) {
+        width: 147px;
+        height: 91px;
+        bottom: -30px;
+        left: -37px;
+      }
     }
   }
 
@@ -55,17 +64,14 @@
     }
 
     &_title {
+      margin-bottom: 15px;
       color: $white;
       max-width: 431px;
       font-family: $ff;
-      font-size: 72px;
+      font-size: 28px;
       font-weight: $fw-regular;
       line-height: 1.1;
       letter-spacing: 2.88px;
-
-      @media all and (min-width: 320px) {
-        font-size: 42px;
-      }
 
       @media all and (min-width: 790px) {
         font-size: 58px;
@@ -83,7 +89,7 @@
 
     &_input {
       margin-bottom: 20px;
-      padding: 26px 19px;
+      padding: 12px 14px;
       width: 100%;
       color: rgba(255, 255, 255, 0.70);
       font-family: $ff;
@@ -93,6 +99,14 @@
       border-radius: 6px;
       background: #191919;
       border: none;
+
+      @media all and (min-width: 790px) {
+        padding: 18px 16px;
+      }
+
+      @media all and (min-width: 1200px) {
+        padding: 26px 19px;
+      }
     }
   }
 }

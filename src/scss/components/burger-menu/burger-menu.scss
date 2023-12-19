@@ -53,12 +53,12 @@
 }
 
 .burger__active > span::after {
-  top: 0;
+  top: 10px;
   transform: rotate(45deg);
   transition: transform 0.2s ease-in-out;
 }
 .burger__active > span::before {
-  top: 0;
+  top: 10px;
   transform: rotate(-45deg);
   transition: transform 0.2s ease-in-out;
 }

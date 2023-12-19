@@ -1,9 +1,5 @@
 .feedbacks {
-  padding-block: 100px;
-
-  @media all and (min-width: 320px) {
-    padding-block: 50px;
-  }
+  padding-block: 50px;
 
   @media all and (min-width: 790px) {
     padding-block: 70px;
@@ -13,16 +9,14 @@
     padding-block: 100px;
   }
 
-
   &__item {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    min-height: 364px;
     max-width: 423px;
-    height: 364px;
     background-color: $black;
     border-radius: 32px;
-
-    @media all and (min-width: 320px) {
-      padding: 25px;
-    }
 
     @media all and (min-width: 790px) {
       padding: 30px;
@@ -40,14 +34,10 @@
       margin-bottom: 19px;
       color: #FFF;
       font-family: $ff;
-      font-size: 36px;
+      font-size: 28px;
       font-style: normal;
       font-weight: $fw-regular;
       line-height: 1.2;
-
-      @media all and (min-width: 320px) {
-        font-size: 28px;
-      }
 
       @media all and (min-width: 790px) {
         font-size: 32px;
@@ -61,14 +51,10 @@
     &_name {
       color: rgba(255, 255, 255, 0.70);
       font-family: $ff;
-      font-size: 24px;
+      font-size: 18px;
       font-style: normal;
       font-weight: $fw-regular;
       line-height: 1.2;
-
-      @media all and (min-width: 320px) {
-        font-size: 18px;
-      }
 
       @media all and (min-width: 790px) {
         font-size: 22px;
